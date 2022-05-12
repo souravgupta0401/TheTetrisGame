@@ -1,17 +1,22 @@
+
 .container{
     display: flex;
+
 }
+
 .grid {
     width: 200px;
     height: 400px;
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
 }
 .grid div{
     height: 20px;
     width: 20px;
+    border: double;
 }
+
 .tetromino{
     background-color: blue;
 }
@@ -21,11 +26,13 @@
     height: 80px;
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
 }
 .mini-grid div{
     height: 20px;
     width: 20px;
+    border: double;
 }
+
 
 /*div_inline_element so stack up, hence we_use flex box so that it arranges itself*/
